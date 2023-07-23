@@ -21,7 +21,7 @@ function createStream(cancel) {
             streamController = controller;
         },
         cancel,
-    });
+    },strategy={highWaterMark: 128});
 
     return {
         stream,

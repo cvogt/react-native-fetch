@@ -1,5 +1,5 @@
 {
-  "name": "react-native-fetch-api",
+  "name": "react-native-fetch-api-cvogt",
   "description": "A fetch API polyfill for React Native with text streaming support.",
   "version": "3.0.0",
   "main": "fetch.js",
