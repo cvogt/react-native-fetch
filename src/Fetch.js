@@ -139,6 +139,7 @@ class Fetch {
             return;
         }
 
+        console.log("i am here")
         const { stream, streamController } = createStream(() => {
             this.__clearNetworkSubscriptions();
             Networking.abortRequest(this._requestId);
